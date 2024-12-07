@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script defer src='index.js'></script>
+</head>
+
+<body>
+  <label for="first_curr">Купити:</label>
+  <select name="first_curr" id="first_curr">
+    <option value="uah">Гривні</option>
+    <option value="usd">Долари</option>
+    <option value="eur">Євро</option>
+  </select>
+
+  <label for="second_curr">за:</label>
+  <select name="second_curr" id="second_curr">
+    <option value="uah">Гривні</option>
+    <option value="usd" selected>Долари</option>
+    <option value="eur">Євро</option>
+  </select>
+
+  <label for="num">Купити суму:</label>
+  <input type="number" id="num" />
+
+  <p>Вартість: <b id="result"></b></p>
+</body>
+
+</html>
